@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="./js/script.js"></script>s
+</head>
+<body>
+    <script> 
+        AOS.init(); 
+    </script>
+    <div id="container">
+        <header class="header">
+            <div class="logo">
+                <a href="#none">
+                    <img src="./img/logo.svg" alt="">
+                </a>
+            </div>
+            <div class="menu_desktop">
+                <ul class="menus">
+                    <li>
+                        <a href="#none">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="#none">계좌계설</a>
+                    </li>
+                    <li>
+                        <a href="#none">인증센터</a>
+                    </li>
+                    <li>
+                        <a href="#none">증권업무</a>
+                    </li>
+                    <li>
+                        <a href="#none">고객센터</a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- 모바일 화면 -->
+           <div class="menu_mobile">
+            <input type="checkbox" id="trigger" style="display:none;">
+            <label for="trigger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <div class="menu-bar-box">
+                <ul class="menu-bar">
+                    <li>
+                        <a href="#none" class="menu">회사소개</a>
+                    </li>
+                    <li>
+                        <a href="#none" class="menu">계좌계설</a>
+                    </li>
+                    <li>
+                        <a href="#none" class="menu">인증센터</a>
+                    </li>
+                    <li>
+                        <a href="#none" class="menu">증권업무</a>
+                    </li>
+                    <li>
+                        <a href="#none" class="menu">고객센터</a>
+                    </li>
+                </ul>
+            </div>
+           </div>
+        </header>
+        
+        <div class="play">
+            <div class="play-font">
+                <div class="reveal"><div class="reveal__content"> <h1>키움증권과 함께 하는</h1></div></div>
+                <div class="reveal"><div class="reveal__content"> <h1 class="play-font2 reveal">투자서비스</h1></div></div>
+                <div class="reveal"> <div class="reveal__content"><p class="reveal">키움자산운용이 함께 합니다.</p></div></div>
+                
+               
+              
+            </div>
+            <div class="play-back"></div>
+            <div class="video-box">
+                <iframe class="video" width="100%" height="1080px" src="https://www.youtube.com/embed/4SRE5rw61zo?si=MdtbVOAIkL9FvL-R?autoplay=1" frameborder="0" allowfullscreen></iframe>
+            </div>
+           
+        </div>
+
+        <!-- 메인화면 -->
+        <section class="sec-1">
+            <div class="inner-box">
+                <div class="inner box-l" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="head-text">
+                        <h1>어려운 투자는 안녕!</h1>
+                    </div>
+                    <div class="sub-text">
+                        <p>이제 키움증권과 함께 쉽고 빠르게 <br>투자해 보세요</p>
+                    </div>
+                </div>
+                <div class="inner box-r" data-aos="fade-down" data-aos-duration="1500">
+                    <div class="phone">
+                        <img src="./img/sec1-img.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2번째 화면 투자정보 -->
+        <section class="sec-2">
+            <div class="inner-box">
+                <div class="inner box-l">
+                    <div class="head-text">
+                        <h1>한눈에 확인하는 <br>투자정보</h1>
+                    </div>
+                    <div class="sub-text">
+                        <p>증시 정보부터<br>관심있는 회사의 투자정보까지</p>
+                    </div>
+                </div>
+                <div class="box-r">
+                    <div class="phone">
+                        <img src="./img/sec2-img.jpg" alt="">
+                    </div>
+                    <div class="sub-m">
+                    <div data-aos="fade-up"  data-aos-duration="1500" >
+                        <div class="sub-phone">
+                            <img src="./img/sec2-sub-phone.png" alt="">
+                        </div>
+                    </div>
+                </div>
+               
+            </div>
+        </section>
+        
+        <!-- 3번째 화면 소주점 거래 -->
+        <section class="sec-3">
+            <div class="inner-box">
+                <div class="inner box-l">
+                    <div class="head-text">
+                        <h1>우량주 <br>천원어치 주세요</h1>
+                    </div>
+                    <div class="sub-text">
+                        <p>부담없이 소액으로<br> 투자해 보세요</p>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <div class="hand">
+                            <img src="./img/sec3-hand.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="inner box-r">
+                    <div class="phone">
+                        <img src="./img/sec3-phone.png" alt="">
+                    </div>
+                    <div class="check">
+                        <div data-aos="fade-down" data-aos-duration="1500">
+                            <div class="order1">
+                                <img src="./img/sec3-order1.png" alt="">
+                            </div>
+                        </div>
+                        <div data-aos="fade-up" data-aos-duration="1000">
+                            <div class="order2">
+                                <img src="./img/sec3-order2.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div data-aos="fade-right" data-aos-duration="1500">
+                        <div class="hand2">
+                            <img src="./img/sec3-hand.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+       
+        <!-- 4번째 화면 1년전이라면 -->
+        <section class="sec-4">
+            <div class="inner-box">
+
+                <div class="inner box-l">
+                    <div class="head-text">
+                        <h1>1년전에 해외주식에</h1>
+                        <span>투자했다면?</span>
+                    </div>                
+                    <div class="phone">
+                        <img src="./img/sec4-phone.png" alt="">
+                    </div>
+                </div>
+                <div class="inner box-r">
+                    <div class="company">
+                        <div class="c_logo c-logo">
+                            <img src="./img/sec4-c-logo.png" alt="">
+                        </div>
+                        <div class="c_logo c-logo2">
+                            <img src="./img/sec4-c-logo.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="down-box">
+                 <div class="down">
+                     <div class="sub-text">
+                         <p>해외주식 투자는<br> 키움증권</p>
+                     </div>  
+                     <div class="market">
+                         <a href="#none">
+                             <img src="./img/sec4-market.png" alt="">
+                         </a>
+                     </div>
+                 </div>
+                </div>
+                
+                
+            </div>
+        </section>
+
+          <!-- 5번째 이벤트 페이지 -->
+        <section class="sec-5">
+            <div class="inner-box">
+                <div class="event-text">
+                    <p>EVENT</p>
+                </div>
+                <div class="event-wrap">
+                    <div class="event-box">
+                        <div class="event">
+                            <H3>D-19</H3>
+                            <div class="event-bottom">
+                                <P>미국주식 매수 수수료</P>
+                                <li>0%</li>
+                                <p>매도시 0.0008%</p>
+                                <p>(최소 $0.01)</p>
+                            </div>
+                           
+                        </div>
+                        <div class="event">
+                            <h3>D-37</h3>
+                            <div class="event-bottom">
+                                <P>비대면 최초 계설하면</P>
+                            <li>주식 15종목 증정!</li>
+                            <p>조건충족시 이벤트참여 필수</p>
+                            </div>
+                            
+                        </div>
+                        <div class="event">
+                            <h3>D-30</h3>
+                            <div class="event-bottom">
+                                <p>키움증권으로 타사 주식 옮기면</p>
+                                <li>최대 115만원 지급!</li>
+                            </div>
+                          
+                        </div>
+                        <div  class="event">
+                            <h3>D-14</h3>
+                            <div class="event-bottom">
+                                <p>환율우대 최대</p> <li>95%</li>
+                            <p>95%: USD</p>
+                            <P>92%: JPY ,EUR, GBP</P>
+                            <P>90%: HKD,CNY</P>
+                            </div>
+                            
+                        </div>
+                        <div class="event">
+                            <H3>D-30</H3>
+                            <div class="event-bottom">
+                                <p>미국주식이 처음이라면</p>
+                                <li>40달러 받고 시작</li>
+                                <p>비대면계좌로 신청필수</p>
+                            </div>
+                           
+                        </div>
+                        <div class="event">
+                            <h3>D-19</h3>
+                            <div class="event-bottom">
+                                <P>신규 / 휴먼 고객에게</P>
+                            <li>최대 6개월 수수료 할인</li>
+                            </div>
+                            
+                        </div>
+                    </div>    
+                </div>
+            </div>
+        </section>
+
+        <!-- 6번째 마지막 페이지 -->
+        <section class="sec-6">
+        
+            <div class="inner-box">
+                <div class="img-6">
+                    <img src="./img/다운로드.jpg" alt="">
+                </div>
+                <div class="img-7">
+                    <img src="./img/202311281527074188_0.jpg" alt="">
+                </div>
+                <div class="sec-6-t">
+                    <div class="sub-text">
+                        <p>계좌계설부터 <br>국내, 해외주식, 펀드거래까지</p>
+                    </div>
+                    <div class="head-text">
+                        <h1>모두 영웅문s#에서</h1>
+                    </div>
+                    <div class="market">
+                        <a href="#none">
+                            <img src="./img/sec4-market.png" alt="">
+                        </a>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer-up"></div>
+            <div class="left">
+                <div class="main-text">
+                    <p>서비스 안내</p>
+                </div>
+                <a href="#none">
+                    <li>업무시간</li>
+                </a>
+                <a href="#none">
+                    <li>수수료/증거금</li>
+                </a>
+                <a href="#none">
+                    <li>장애인 홈페이지 이용안내</li>
+                </a>
+                <a href="#none">
+                    <li>고객게시판</li>
+                </a>
+                <a href="#none">
+                    <li>자주하는질문(F&Q)</li>
+                </a>
+            </div>
+            <div class="real-right">
+                <div class="right">
+                    <div class="main-text">
+                        <p>키움금융센터</p>
+                        <P>1544-9000/1544-9911</P>
+                    </div>
+                    <li>(영업일 08:00 ~ 18:30 / 단, 18:00 ~ 18:30 단순 업무만 가능)</li>
+                    <a href="#none">
+                        <li>주문전용 1544-4989</li>
+                    </a>
+                    <a href="#none">
+                        <li>주문전용 1544-4989</li>
+                    </a>
+                    <a href="#none">
+                        <li>해외주식 1544-9400</li>
+                    </a>
+                    <a href="#none">
+                        <li>계좌개설 1544-2744</li>
+                    </a>
+                    <a href="#none">
+                        <li>금융상품1544-9100</li>
+                    </a>
+                </div>
+                <div class="r-right">
+                      <a href="#none">
+                        <li>해외선옵1544-9100</li>
+                    </a>
+                    <a href="#none">
+                        <li>재휴기관대출1644-6960</li>
+                    </a>
+                    <a href="#none">
+                        <li>국내주식1544-9000</li>
+                    </a>
+                    <a href="#none">
+                        <li>FX마진1544-9600</li>
+                    </a>
+                    <a href="#none">
+                        <li>ARS(24시간)1544-9900</li>
+                    </a>
+                    
+                </div>
+            </div>
+            <div class="footer-bar">
+
+            </div>
+        
+
+        </footer>
+        
+
+
+    </div>
+    
+</body>
+</html>
